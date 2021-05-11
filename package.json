@@ -8,5 +8,14 @@
   },
   "keywords": [],
   "author": "Joel Acosta <joelac04@hotmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "date-fns": "^2.21.3"
+  },
+  "optionalDependencies": {
+    "eslint": "^7.26.0"
+  }
 }
