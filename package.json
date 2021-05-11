@@ -10,10 +10,12 @@
   "author": "Joel Acosta <joelac04@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "json-server": "^0.15.0",
     "moment": "^2.29.1"
   },
   "devDependencies": {
-    "date-fns": "^2.21.3"
+    "date-fns": "^2.21.3",
+    "webpack": "^5.37.0"
   },
   "optionalDependencies": {
     "eslint": "^7.26.0"
