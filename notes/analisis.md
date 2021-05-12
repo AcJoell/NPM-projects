@@ -56,14 +56,14 @@ npm run test || npm test || npm start
 
 **1 .** En caso de que nuestros archivos de node_module no estén bien instalados o tengamos una versión anterior lo que podemos hacer es lo siguiente:
 ```
-npm cache clear --force
+npm cache clean --force
 #Para verificar que verdaderamente se borro podemos usar
 npm cache verify
 ```
 
 Uno de los errores que podemos tener es tener algún valor corrupto en node_module, o tambien que la instalación no este completa de los paquetes que hemos instalado, para ello podemos eliminar el paquete con el siguiente comando:
 ```
-rm -rf node_modules  #este comando eliminar la carpeta 
+rm -rf node_modules  # este comando elimina la carpeta 
 ```
 
 **2 .** Otra alternativa para eliminar de forma segura una carpeta es instalando el siguiente paquete:
