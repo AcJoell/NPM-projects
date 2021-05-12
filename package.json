@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "random de mensajes - curso NPM | Platzi",
   "main": "src/index.js",
-  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,7 +15,15 @@
   "author": "Joel Acosta <joelac04@hotmail.com>",
   "license": "MIT",
   "bin": {
-    "random-messages": "./bin/global.js"
+    "random-messages": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcJoell/NPM-projects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AcJoell/NPM-projects/issues"
+  },
+  "homepage": "https://github.com/AcJoell/NPM-projects#readme"
 }
