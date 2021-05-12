@@ -1,6 +1,6 @@
 {
   "name": "mensaje-de-nombres-random",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "random de mensajes - curso NPM | Platzi",
   "main": "src/index.js",
   "devDependencies": {},
