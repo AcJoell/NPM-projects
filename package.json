@@ -1,22 +1,22 @@
 {
-  "name": "npm",
+  "name": "mensaje-de-nombres-random",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "random de mensajes - curso NPM | Platzi",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
   "author": "Joel Acosta <joelac04@hotmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "moment": "^2.29.1"
+  "bin": {
+    "random-messages": "./bin/global.js"
   },
-  "devDependencies": {
-    "date-fns": "^2.21.3",
-    "webpack": "^5.37.0"
-  },
-  "optionalDependencies": {
-    "eslint": "^7.26.0"
-  }
+  "preferGlobal": true
 }
